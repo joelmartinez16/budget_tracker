@@ -79,7 +79,7 @@ function sendTransaction(isAdding) {
     return;
   }
   else {
-    errorEl.textContent = "";
+    errorEl.textContent = "It worked";
   }
 
 
@@ -116,7 +116,6 @@ function sendTransaction(isAdding) {
       errorEl.textContent = "Missing Information";
     }
     else {
-      // clear form
       nameEl.value = "";
       amountEl.value = "";
     }
