@@ -79,7 +79,7 @@ function sendTransaction(isAdding) {
     return;
   }
   else {
-    errorEl.textContent = "It worked";
+    errorEl.textContent = "";
   }
 
 

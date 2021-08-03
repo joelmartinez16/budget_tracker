@@ -2,4 +2,4 @@
 
 This application will allow users to track their budget offline and when the application comes back online it will update with the new information that was inputed. 
 
-The budget tracker 
+The budget tracker will keep track of all the entries made online or offline.
