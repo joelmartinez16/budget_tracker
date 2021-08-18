@@ -1,5 +1,6 @@
 let transactions = [];
 let myChart;
+let errorEl = document.querySelector(".error")
 
 fetch("/api/transaction")
   .then(response => {
